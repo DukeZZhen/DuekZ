@@ -1,5 +1,5 @@
-I am a Associate Professor at the Orthopedics, Shenzhen Hospital of Southern Medical University, collaborated with [Prof. Jun Wu](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Jun/junwuhkust) and [Dr. Ke Lu](https://www.smuszh.cn//info/21921/47701.htm).
+I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
 
-Prior to this, I obtained a Doctor of Engineering degree in Biomedical Engineering from Sun Yat-sen University.
+Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
 
-My current research focuses on regenerative medicine, drug delivery, natural herbal, and AI4S.
+My current research focuses on investigating the mathematical principles of natural philosophy.
