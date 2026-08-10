@@ -2,12 +2,12 @@
 title = "Zhen Zhang"
 description = "PhD student at the University of Example."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "August 10, 2026"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
+name = "Zhen Zhang"
+title = "Associate Professor"
+institution = "Shenzhen Hospital of Southern Medical University"
 avatar = "/bio.jpg"
 
 [social]
