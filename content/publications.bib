@@ -1,91 +1,423 @@
-@article{liu2024stability,
-  selected={true},
-  title = {Numerical Stability Analysis of High-Order Runge-Kutta Methods in Quantum Dynamics},
-  author = {Jiale Liu and Sarah O'Connor*},
-  year = {2024},
-  month = mar,
-  journal = {Journal of Computational Physics},
-  volume = {450},
-  pages = {110832},
-  issn = {0021-9991},
-  doi = {10.1016/j.jcp.2023.110832},
-  urldate = {2024-12-02},
-  langid = {english},
-  abstract = {The precise time-evolution of quantum systems is a cornerstone of computational physics. This paper investigates the numerical stability of high-order Runge-Kutta (RK) methods when applied to the time-dependent Schrödinger equation. We derive rigorous stability boundaries for symplectic and non-symplectic RK integrators and demonstrate that specific implicit schemes preserve unitarity over extended simulation times. By analyzing the spectral properties of the Hamiltonian operator, we establish a relationship between the Courant-Friedrichs-Lewy (CFL) condition and the imaginary eigenvalues characteristic of quantum propagators. Our findings are validated through simulations of wave packet scattering and harmonic oscillator dynamics, showing that our proposed optimized RK coefficients significantly reduce phase error accumulation compared to standard integrators.},
-  description={A rigorous analysis of numerical stability boundaries for high-order Runge-Kutta integrators in the context of time-dependent quantum mechanics.},
-  keywords={Computational Physics, Quantum Dynamics, Numerical Analysis, Runge-Kutta Methods}
-}
-
-@inproceedings{smith2024constructive,
-  title = {A Constructive Proof of the Generalized Riemann Hypothesis for Function Fields over Finite Constants},
-  booktitle = {Proceedings of the 2024 International Congress of Mathematicians (ICM)},
-  author = {John Smith# and Jiale Liu#* and Alan Turing},
-  year = {2024},
-  month = jun,
-  pages = {205--218},
-  publisher = {EMS Press},
-  address = {Paris, France},
-  doi = {10.4171/ICM2024/102},
-  urldate = {2024-12-02},
-  isbn = {978-3-03719-202-8},
-  abstract = {We present a novel constructive proof for the Generalized Riemann Hypothesis (GRH) specifically within the context of function fields over finite constants. Unlike previous existential approaches, our method utilizes the spectral interpretation of the Frobenius automorphism acting on étale cohomology groups. We explicitly construct the L-functions associated with algebraic curves and demonstrate that their zeros lie strictly on the critical line Re(s) = 1/2. This work bridges the gap between classical analytic number theory and geometric invariant theory, offering new insights into the distribution of prime polynomials. The constructive nature of our proof allows for the algorithmic verification of L-function properties for curves of genus g > 100, which was previously computationally intractable.},
-  preview={example.png},
-  description={A constructive proof demonstrating the validity of the Generalized Riemann Hypothesis for function fields using spectral interpretation of the Frobenius automorphism.},
-  keywords={Number Theory, Riemann Hypothesis, Function Fields, Algebraic Geometry}
-}
-
-@inproceedings{brown2023monte,
-  selected={true},
-  title = {Monte Carlo Simulations of Phase Transitions in 2D Ising Models on Non-Euclidean Lattices},
-  shorttitle = {Ising on Hyperbolic Planes},
-  booktitle = {2023 International Conference on Computational Physics (ICCP)},
-  author = {Charlie Brown and Jiale Liu*},
-  year = {2023},
-  month = dec,
-  pages = {45--52},
-  publisher = {APS},
-  address = {Tokyo, Japan},
-  doi = {10.1103/ICCP.2023.0045},
-  urldate = {2024-12-02},
-  isbn = {978-0-7354-2000-1},
-  abstract = {The behavior of spin systems on curved geometries offers a unique window into the interplay between topology and statistical mechanics. This study employs extensive Monte Carlo simulations to explore the phase transitions of the 2D Ising model mapped onto hyperbolic lattices (Poincaré disk). We utilize the Wolff cluster algorithm to overcome critical slowing down near the phase transition temperature. Our results indicate that the critical exponents on negatively curved surfaces deviate significantly from the standard Onsager solution for flat Euclidean lattices. Specifically, we observe a suppression of the correlation length divergence, suggesting a mean-field-like behavior induced by the exponential expansion of the lattice volume. These findings have implications for understanding quantum gravity models and holographic duality.},
-  preview={example.png},
-  description={Monte Carlo study revealing mean-field-like phase transitions and critical exponent deviations for Ising models on hyperbolic non-Euclidean lattices.},
-  keywords={Statistical Mechanics, Monte Carlo Simulation, Ising Model, Non-Euclidean Geometry}
-}
-
-@article{doe2025existence,
-  title = {On the Existence and Uniqueness of Solutions to Non-Linear Stochastic Partial Differential Equations},
-  author = {Jane Doe and Jiale Liu and Richard Feynman},
-  year = {2025},
-  month = jun,
-  journal = {Annals of Probability},
-  volume = {53},
-  number = {4},
-  pages = {1201--1245},
-  issn = {0091-1798},
-  doi = {10.1214/25-AOP1201},
-  copyright = {https://imstat.org/journals-and-publications/annals-of-probability/},
-  abstract={We establish the existence and uniqueness of strong solutions for a class of non-linear Stochastic Partial Differential Equations (SPDEs) driven by multiplicative Lévy noise. The equations under consideration model turbulent fluid flow and heat transport in random media. By employing a Galerkin approximation scheme combined with a compact embedding theorem, we prove the convergence of the approximate solutions in appropriate Hilbert spaces. Furthermore, we derive a priori estimates that ensure the global regularity of the solution almost surely. A key contribution of this work is the treatment of non-Lipschitz coefficients using a stochastic Gronwall inequality, extending the applicability of the theory to more singular physical models. We also discuss the ergodic properties of the invariant measures associated with the SPDEs.},
-  preview={example.png},
-  description={Mathematical proof of existence and uniqueness for non-linear SPDEs with multiplicative Lévy noise, extending theory to non-Lipschitz coefficients.},
-  keywords={Stochastic Analysis, SPDE, Existence Theorems, Probability Theory}
-}
-
-
-@article{liu2025algorithmic,
-  title = {Algorithmic Complexity of Tensor Network Contractions in Many-Body Localization},
-  author = {Jiale Liu and Ada Lovelace*},
-  year = {2025},
-  month = sep,
-  journal = {Physical Review E},
-  issn = {2470-0045},
-  publisher = {APS},
-  abstract = {Simulating the dynamics of many-body localized (MBL) systems poses a significant challenge due to the logarithmic growth of entanglement entropy. This paper analyzes the algorithmic complexity of contracting Tensor Networks, specifically Matrix Product States (MPS) and Projected Entangled Pair States (PEPS), when applied to MBL Hamiltonians. We prove that while the exact contraction is #P-complete, approximate contraction schemes based on singular value decomposition (SVD) truncation exhibit polynomial time complexity with bounded error for short-time evolution. However, we identify a "complexity phase transition" at the ergodic-MBL transition point, where the bond dimension required for a fixed accuracy diverges exponentially. We propose a novel adaptive bond-dimension algorithm that optimizes computational resources by exploiting the area law of entanglement in the localized phase, demonstrating superior performance on Heisenberg spin chains.},
-  description={Complexity analysis of tensor network contractions in MBL systems, identifying a complexity phase transition and proposing an adaptive algorithm.},
-  keywords={Tensor Networks, Many-Body Localization, Complexity Theory, Quantum Information},
-  doi = {10.1103/PhysRevE.112.092101},
+@article{liang2026interactions,
   selected = {true},
-  code = {https://github.com/xyjoey/PRISM},
+  title={Interactions of metal-phenolic networks with physiological barriers and their advances in diseases management},
+  author={Liang, Zonghao# and Zhang, Zhen# and Huang, Chunlin# and Huang, Jianlin and Wang, Yanhui and Huang, Bangqi and Fu, Huayu and Zhao, Yi* and Wu, Jun*},
+  journal={Coordination Chemistry Reviews},
+  volume={557},
+  pages={217753},
+  year={2026},
+  publisher={Elsevier},
+  doi = {10.1016/j.ccr.2026.217753},
+  abstract={Organisms exist widespread physiological barrier systems, including the blood-brain barrier (BBB), gastrointestinal barrier (GIB), pulmonary mucosal barrier, and skin barriers, which act as protectors while also impeding the successful passage of therapeutic drugs. Barriers are mainly made up of tight cell junctions and active transport systems, but different organs have environmentally adapted unique structures, and heterogeneous tumors escape drug interventions by camouflaging the barrier structure. Metal-phenolic networks (MPNs) are an emerging nanodrug platform that has attracted significant attention due to their unique combination of metal and polyphenol properties, especially for trans-barrier transport. MPNs demonstrate diverse biological effects when interacting with physiological barriers, notably in penetration, repair, and regulation, thereby amplifying the therapeutic effects of the nanosystems. Additionally, MPNs exhibit cross-barrier spatiotemporal modulation capabilities, yet comprehensive insights into the interactions of MPNs with physiological barriers are not presently. Therefore, this review systematically covers the core characteristics, production methods, and process control of MPNs. It also details the key microstructural features of various physiological and tumor pathological barriers and summarizes advances in the application of MPNs for the treatment of diseases associated with different barriers. Lastly, it presents an initial overview of the spatiotemporal crosstalk mechanisms of MPNs within the multilevel barrier systems of the body and further highlights the challenges and prospects of MPNs in overcoming physiological barrier challenges.},
+  preview={CCR2026.png},
+  description={This article reviews the synthesis and influencing factors of MPNs, the architecture and roles of physiological/pathological barriers, their interplay and disease-related applications, as well as the broader biomedical implications of coordination‑metal‑based materials.},
+  keywords={MPNs, Physiological barriers, Self-assembly, Nanosystems, Pathological barriers}
 }
 
+@article{duan2026versatile,
+  title={Versatile eutectogel sensor with tunable mechanical properties for monitoring of human bioelectromechanical signals},
+  author={Duan, Yixi# and Zhang, Zhen#* and Wang, Jing# and Huang, Chunlin and Huang, Jianlin and Wu, Jun*},
+  journal={Small Methods},
+  volume={10},
+  number={10},
+  pages={e02362},
+  year={2026},
+  publisher={Wiley},
+  doi = {10.1002/smtd.202502362},
+  abstract={Further development of wearable and implantable devices is constrained by the adaptive limitations of flexible gels sensors, which require robust mechanical properties, high electrical conductivity, strain sensitivity, and biocompatibility. Compared to traditional conductive gels, eutectogels based on deep eutectic solvents (DES) offer a safe, economical, environmentally friendly, and easily scalable alternative. Here, we report a green economic strategy to fabricate two multifunctional conductive gels with tunable mechanical and electrical properties and multifunction from polyvinyl alcohol (PVA) and DES (PD). By varying the component ratio and preparation methods, we precisely regulate the PD's mechanical and conductive properties while introducing antibacterial and biocompatibility functions, significantly broadening its application scope. The obtained PD gel exhibits excellent biosafety and antibacterial properties, alongside an exceptionally broad mechanical range, with Young's modulus ranging from 0.84 to 10.22 MPa and a maximum elongation of 718%. It demonstrated sensitive strain sensing (GF = 2.05) and a favorable anti-freezing ability. The Young's modulus of PD Hydrogel ranges from 4.26 to 1.98 kPa. It illustrated outstanding efficacy in replacing commercially available electrocardiogram (ECG) electrode gels, joint deformation, and temperature and humidity monitoring sensors. This simple, additive-free, and environmentally friendly PD eutectogel offers significant application potential in next-generation health monitoring.},
+  preview={SM2026.png},
+  description={This paper presents a green and eco‑friendly approach to produce multifunctional PVA/DES eutectogels with tunable properties, antibacterial and biocompatible features, strain sensitivity, and anti‑freezing ability, showing promising applications in ECG, joint sensing, and environmental monitoring, thus addressing the key constraints of flexible gel sensors for advanced health‐care devices.},
+  keywords={Deep eutectic solvents, Eutectogel, Flexible sensing, Health monitoring, Multifunctional}
+}
+
+@article{zhang2026mechanoadaptive,
+  title={A mechanoadaptive glycopeptide hydrogel alleviates intervertebral disc degeneration by targeting PPARα},
+  author={Zhang, Xiaohe# and Han, Weitao# and Zhang, Zhen#* and Wu, Yuliang and Gao, Songbo and Sun, Bo and Zheng, Wanli and Wang, Hui and Xiao, Yin and Yin, Junqiang* and Wu, Jun*},
+  journal={Chinese Chemical Letters},
+  pages={112744},
+  year={2026},
+  publisher={Elsevier},
+  doi = {10.1016/j.cclet.2026.112744},
+  abstract={The limited self-renewal capacity of nucleus pulposus cells (NPCs) and local metabolic disturbances are central to intervertebral disc degeneration (IVDD), for which effective pharmacological treatments are lacking. Hydrogels platforms offer promising solutions for IVDD due to their mechanical adaptability, microenvironment regulation, and drug delivery potential. In this study, we developed an injectable glycopeptide hydrogel platform named GelOF hydrogel based on oxidized fucoidan (OF) and gelatin. The GelOF hydrogel demonstrated significantly enhanced mechanical properties. Subsequent analysis revealed that this improvement stems from an energy dissipation mechanism facilitated by a hierarchical sacrificial bond network, coupled with reinforced intermolecular forces. In vitro experiments demonstrated that the GelOF hydrogel exhibits excellent biocompatibility, anti-inflammatory and antioxidant activity, protecting NPCs in simulated inflammatory environments by regulating lipid metabolism and enhancing extracellular matrix (ECM) synthesis. In vivo experiments displayed consistent results. Transcriptomic analysis identifies peroxisome proliferator-activated receptor alpha (PPARα) pathway activation as crucial for GelOF-mediated IVD regeneration. Overall, this hydrogel platform is easy to prepare, stabilizes the disc microenvironment, and modulates lipid metabolism, offering a novel tissue engineering scaffold concept for treating other conditions requiring mechanical support and microenvironmental regulation.},
+  preview={1CCL2026.png},
+  keywords={IVDD, Mechanoadaptive, Glycopeptide hydrogel, PPARα, Lipotoxicity}
+}
+
+@article{xian2026whole,
+  title={Whole-Course-Repair Wound Dressing Based on Bovine Colostrum and Hyaluronic Acid for Diabetic Wound Repair Through Immunomodulation, Angiogenesis, and Re-Epithelization},
+  author={Xian, Caihong and Zhang, Zhen and Du, Jiyuan and You, Xinru and Zhou, Lilin and Huang, Hai* and Zeng, Jianwen* and Wu, Jun*},
+  journal={Advanced Healthcare Materials},
+  volume={15},
+  number={14},
+  pages={e04734},
+  year={2026},
+  publisher={Wiley},
+  doi = {10.1002/adhm.202504734},
+  abstract={Excessive immune response, obstruction of angiogenesis, degradation of collagen deposition, and delayed re-epithelialization are the primary factors obstructing diabetic wound healing. Adequate and inclusive strategies are needed to address these challenges comprehensively. In this study, a whole-course-repair wound dressing (BC/HA) was simply fabricated to enhance diabetic wound closure. The BC/HA wound dressing, created by combining bovine colostrum (BC) with hyaluronic acid solution (HA), demonstrated good cytocompatibility, endothelial cell migration, angiogenesis, and antibiofilm effects. Using a full-thickness diabetic wound model, we found that the BC/HA dressing effectively modulated the diabetic wound microenvironment. Specifically, it facilitated the conversion of pro-inflammatory M1 macrophages to pro-regenerative M2 macrophages at a rate twice that of the control group. This transformation subsequently promoted endothelial cell migration to the wound sites during the inflammatory phase, resulting in over a 3.8-fold enhancement in vascular formation during the proliferation phase. Furthermore, the BC/HA wound dressing promoted re-epithelialization and facilitated the formation of dermal appendages, hair follicles, and glands in the remodeling phase. These findings shed light on the potential of the BC/HA wound dressing as a promising platform for chronic wound regeneration.},
+  preview={1AHM.png},
+  keywords={IVDD, Mechanoadaptive, Glycopeptide hydrogel, PPARα, Lipotoxicity}
+}
+
+@article{zhang2026naringenin,
+  title={Naringenin-functionalized mesenchymal stem cell-derived exosomes alleviate sepsis-induced cardiac injury by restoring mitochondrial homeostasis and attenuating inflammation},
+  author={Zhang, Zhen* and Li, Xinyu and Wang, Xiaobo and Lu, Bo and Duan, Fengqi and Luo, Chilin and Wu, Jiahui and Li, Yinxin and Wu, Jun* and Xu, Xiaojun*},
+  journal={Chinese Chemical Letters},
+  pages={112677},
+  year={2026},
+  publisher={Elsevier},
+  doi = {10.1016/j.cclet.2026.112677},
+  abstract={Sepsis-induced cardiomyopathy (SIC) is one of the major complications of fatal sepsis, and its pathogenesis is closely related to inflammatory imbalance, oxidative stress, and mitochondrial dysfunction. Impaired mitochondrial autophagy (mitophagy) and cytokine release syndrome (CRS) in septic myocardium are central factors contributing to cardiomyocyte failure. Umbilical cord blood mesenchymal stem cell-derived exosomes (UCB-Exos) serve as a promising cell-free therapeutic tool with both cardiac-targeted delivery and intrinsic repair potential. Naringenin (Nar) is a natural flavonoid with potent anti-inflammatory, antioxidant, and mitochondrial-protective properties, yet its clinical translation is hampered by poor bioavailability. We therefore engineered naringenin-loaded UCB-Exos (Nar@Exo) to synergize their benefits. The fabricated Nar@Exo exhibited favorable biocompatibility, stability, and bioactive properties. In a murine model of cecal ligation and puncture (CLP)-induced sepsis, treatment with Nar@Exo significantly improved cardiac function (as indicated by elevated ejection fraction and fractional shortening), attenuated myocardial inflammatory infiltration, apoptosis, and oxidative stress. Moreover, it restored mitochondrial autophagy homeostasis in cardiomyocytes and reduced systemic inflammation levels.},
+  preview={2CCL2026.png},
+  keywords={Sepsis-induced cardiomyopathy, UCB-Exos, Naringenin, Mitochondrial autophagy, Anti-inflammatory}
+}
+
+@article{zhou2026host,
+  title={Host-guest interaction-mediated pillar [6] arene dual-mode sensor for selective berberine detection, cytotoxicity assessment, and cell imaging},
+  author={Zhou, Suo-Luan and Yang, Fen-Ru and He, Shi-Ping and Zhou, Ting and Hu, Cheng-Nuo and Yang, Jun-Li and Yang, Yun-Han* and Zhang, Zhen* and Yang, Li-Juan*},
+  journal={Microchemical Journal},
+  pages={117393},
+  year={2026},
+  publisher={Elsevier},
+  doi = {10.1016/j.microc.2026.117393},
+  abstract={To achieve selective and sensitive monitoring of berberine hydrochloride (BBR) residues in food, a water-soluble phosphate pillar[6]arene (PP6A)-based dual-mode sensing platform was developed. Thioflavin T (ThT) served as the indicator dye, forming a ThT/PP6A complex that showed enhanced fluorescence. The addition of BBR displaced ThT, causing fluorescence quenching due to stronger BBR–PP6A binding, as confirmed by spectral titration and molecular docking. Based on this competitive host–guest interaction, an “Off-On-Off” fluorescence sensor was established. PP6A was further immobilized on multi-walled carbon nanotubes to enhance electrochemical enrichment and detection. The dual-mode sensor exhibited rapid response, high specificity, and low limits of detection (0.92 μM for fluorescence and 1.41 μM for electrochemistry). The successful application of this technology in commercial tablets, milk, and cell samples demonstrates its feasibility in real-world sample analysis, providing a simple and reliable method for food safety, pharmaceutical quality control, and monitoring BBR in cells.},
+  preview={MJ2026.png},
+  keywords={Pillararene, Thioflavin T, Berberine, Dual-mode sensor, Cell imaging}
+}
+
+@article{xi2025multifunctional,
+  title={Multifunctional hydrogel platform encapsulating lotus root-derived extracellular vesicles stimulate osteogenesis-angiogenesis coupling for accelerated bone regeneration},
+  author={Xi, Yanhai and Huang, Chunlin and Qiu, Ba and Chen, Tao and Wang, Weiheng and Xu, Guohua and Shi, Feng and Liu, Xin* and Zhang, Zhen* and Wu, Jun*},
+  journal={Chemical Engineering Journal},
+  pages={171906},
+  year={2025},
+  publisher={Elsevier},
+  doi = {10.1016/j.cej.2025.171906},
+  abstract={Bone defects due to aging, trauma, and diseases pose a major clinical challenge, causing both physical and psychological distress for patients. Current clinical treatments including autologous or allogeneic bone grafting are limited by donor scarcity. Bone regeneration involves multi-system crosstalk, therefore hydrogel-integrated therapeutic platform strategies with multifunctional and graded sequential degradation are particularly promising. Plant-derived extracellular vesicles (PEVs) have attracted increasing attention in tissue regeneration due to their various bioactivities, easy accessibility, and low immunogenicity, yet suffer from the drawbacks of rapid clearance in vivo. In this study, we extracted extracellular vesicles from lotus roots (LREVs) for the first time and developed a multifunctional hydrogel platform (GelMA/LREVs) incorporating them. The initial in vitro experiments demonstrated that this platform effectively scavenged excessive reactive oxygen species (ROS) in BMSCs, upregulated osteogenesis-angiogenesis coupling, and activated the TGF-β/Smad signaling pathway to promote osteogenic differentiation. Further in vivo experiments confirmed that the platform significantly accelerated bone regeneration and maturation by enhancing angiogenesis, stimulating osteogenic differentiation, and facilitating collagen maturation and mineralization. Given these excellent properties, this platform is anticipated to offer a promising strategy for the clinical treatment of critical bone defects.},
+  preview={CEJ2025.png},
+  keywords={Lotus root, Extracellular vehicles, GelMA, Angiogenesis, Osteogenesis}
+}
+
+@article{feng2025biomaterial,
+  title={Biomaterial strategies in osteoarthritis: new insights bridging aging phenotypes and hypoxic microenvironment pathology},
+  author={Feng, Weiliang# and Zhang, Zhen# and Zhao, Zixuan# and Liu, Hongji and Hou, Jingyi and Wu, Jun* and Sun, Li*},
+  journal={Advanced Healthcare Materials},
+  volume={14},
+  number={27},
+  pages={e01570},
+  year={2025},
+  publisher={Wliey},
+  doi = {10.1002/adhm.202501570},
+  abstract={Osteoarthritis (OA) is a chronic degenerative disease characterized by joint degradation and severe pain, with no effective clinical treatments currently available. Biomaterials, due to their functional and structural diversity, hold significant clinical translation potential to meet various needs in OA management. However, the development of biomaterial scaffold strategies must align closely with advancements in the understanding of OA pathophysiology. This review revisits the interplay between aging, hypoxic microenvironments, and OA progression from a novel perspective. It details the aging-related phenotypes characterized by impaired autophagy and inflammation in various OA-affected tissues and introduces NDRG-mediated hypoxia regulation mechanisms that function independently of the hypoxia-inducible factor (HIF) family. Additionally, it systematically summarizes biomaterial scaffold strategies for OA treatment, including hydrogels, nanoparticles, microneedles, and exosomes. These strategies, inspired by new insights, aim to enhance drug bioavailability, reduce systemic effects, prolong therapeutic duration, and ameliorate the adverse microenvironment of OA through multiple modes of action. This approach holds promise for providing novel ideas for microenvironment-targeted interventions in other degenerative diseases.},
+  preview={AHM2025.png},
+  keywords={aging phenotype, biomaterials, hypoxia, NDRG, osteoarthritis}
+}
+
+@article{hu2025pillar,
+  title={Pillar [5] arene cross-linked chitosan polymer with enhanced selective removal of toxic anionic dyes: Preparation, characterization, adsorption mechanism, and cytotoxicity assessment},
+  author={Hu, Cheng-Nuo and Zhou, Suo-Luan and Chen, Yan and Yang, Ming-Kun and Yang, Yun-Han* and Zhang, Zhen* and Yang, Li-Juan*},
+  journal={Carbohydrate Polymers},
+  pages={124457},
+  year={2025},
+  publisher={Elsevier},
+  doi = {10.1016/j.carbpol.2025.124457},
+  abstract={Polymer networks constructed from chitosan possess abundant active adsorption sites and exhibit efficient adsorption and separation capabilities, highlighting their considerable potential for water pollution treatment. Herein, we report the synthesis of a novel macrocyclic cross-linked network (CS-DBEP5) via a one-pot nucleophilic substitution reaction between CS and per-(2-bromoethyl) pillar[5]arene (DBEP5). Importantly, substitution reactions yielded distinct cross-linking motifs containing secondary/tertiary amines and quaternary ammonium groups within the polysaccharide backbone. This well-defined chemical modification generated multidimensional interaction interfaces, including hydrogen bonding, electrostatic attraction, host-guest complexation, and π-π stacking, that synergistically drive ultrafast anionic dye capture (>95 % removal within 30 s). A systematic investigation revealed that the adsorption of various anionic dyes onto CS-DBEP5 conformed to the Freundlich isotherm model, suggesting a multilayer heterogeneous adsorption mechanism. Furthermore, efficient removal of multiple dye pollutants was achieved even in complex water environments. For the model dye orange G, a high removal efficiency of 91 % was maintained after ten adsorption-desorption cycles. Finally, molecular modeling and toxicity assessments validated the dye adsorption mechanism of CS-DBEP5 and confirmed its non-toxic nature. This work innovatively merged pillararene's supramolecular traits with chitosan's functional benefits to create an efficient adsorbent, offering theoretical and technical insights for macrocyclic polysaccharide composites in wastewater treatment.},
+  preview={CP2025.png},
+  keywords={Chitosan, Pillar[5]arene, Polymer, Anionic dyes, Adsorption mechanism, Cytotoxicity}
+}
+
+@article{zhang2025deep,
+  title={Deep learning-enhanced development of innovative antioxidant liposomal drug delivery systems from natural herbs},
+  author={Zhang, Xiaohe and Zheng, Zhihang and Xie, Lina and Yang, Minghao and Wang, Jing and Wang, Weiwei and Han, Shuyan* and Zhang, Zhen* and Wu, Jun*},
+  journal={Materials Horizons},
+  volume={12},
+  number={18},
+  pages={7416--7424},
+  year={2025},
+  publisher={The Royal Society of Chemistry},
+  doi = {10.1039/d5mh00699f},
+  abstract={Free radical-mediated oxidative damage to biological macromolecules, such as DNA and proteins, significantly contributes to cellular ageing. Antioxidants play a crucial role in mitigating this process by neutralizing reactive oxygen species (ROS) and reducing DNA damage. Traditional herbal medicines are of strong interest as potential sources of antioxidants due to their rich diversity of bioactive components. In this study, we developed a two-stage BERT-based framework trained on 587 experimentally confirmed antioxidants and 983 inactive compounds. The optimized model effectively screened a broad range of potential antioxidant compounds from a library of 2882 natural herbal compounds, achieving an accuracy improvement of approximately 20% over traditional machine learning models. Molecular docking simulations and in vitro experiments consistently validated the antioxidant capacity of the selected compounds. Additionally, incorporating three representative compounds into a liposomal delivery system not only enhanced in vivo bioavailability, but also mitigated oxidative stress injury after kidney acute ischemia/reperfusion. This was achieved by up-regulating antioxidant-related genes in target organs as well as ROS scavenging. Our findings highlight the potential of integrating deep learning-based compound screening with an engineered liposomal delivery platform in the research of oxidative stress and aging.},
+  preview={MH2025.png},
+  keywords={Chitosan, Pillar[5]arene, Polymer, Anionic dyes, Adsorption mechanism, Cytotoxicity}
+}
+
+@article{ren2025hybrid,
+  title={A hybrid MnO2 nanomotor-driven hyaluronic acid-based dressing enhances wound healing via synergistic deep antioxidant and angiogenic activities},
+  author={Ren, Lin# and Zhang, Zhen# and Yang, Shiwen and Liu, Gen and Wu, Jun and Xia, Juan},
+  journal={International Journal of Biological Macromolecules},
+  volume={320},
+  pages={145697},
+  year={2025},
+  publisher={Elsevier},
+  doi = {10.1016/j.ijbiomac.2025.145697},
+  abstract={Wound healing occurring in movable areas remains a challenge due to incomplete coverage and frequent dressing changes, developing efficacious dressing, while simultaneously providing application convenience, such as less irritating dressing changes, spreadability and sprayability is essential. In this study, a novel hybridized gel dressing was prepared by simple process using manganese dioxide nanosheets (MnO2 NSs) and hyaluronic acid (HA). This MnO2/HA dressing significantly promoted migration of fibroblasts and effectively protected fibroblasts against oxidative stress damage. Specifically, MnO2/HA exerted strong antioxidation by activating the Sirt1/Nrf2 signaling pathway. In addition, MnO2/HA dramatically strengthened angiogenesis of vascular endothelial cells. In vivo experiments further confirmed that MnO2/HA facilitated faster wound closure via promoting re-epithelialization, enhancing collagen deposition, increasing neo-vascularization and ameliorating oxidative stress. This study indicats MnO2 nanomotor-driven dressing is a promising candidate, with convenient preparation and application, as well as excellent antioxidant and angiogenic activity for wound healing.}
+}
+
+@article{li2025pro,
+  title={Pro-angiogenic functionalized hyaluronic acid-based hydrogel encapsulating metformin coordinates in situ immune-inflammatory modulation for accelerating diabetic wound healing},
+  author={Li, Zhen and Guan, Shiyao and Duan, Xiao and Wang, Liying* and Zhang, Zhen* and Wu, Jun*},
+  journal={International Journal of Biological Macromolecules},
+  volume={318},
+  pages={144944},
+  year={2025},
+  publisher={Elsevier},
+  doi = {10.1016/j.ijbiomac.2025.144944},
+  abstract={Diabetic wounds present significant challenges due to persistent inflammation and impaired angiogenesis, often resulting in delayed healing or, in severe cases, amputation. Hence, there is an urgent need for innovative wound dressings tailored to the specific needs of diabetic wounds. Deferoxamine (DFO) and metformin (Met) offer promising properties for promoting angiogenesis and modulating the immune-inflammatory response, respectively, but their burst release limits their further application in wound management. Based on this, we developed a novel multifunctional diabetic wound dressing composed of DFO-grafted hyaluronic acid methacrylate (HAMA) hydrogel loaded with Met (Met/DMA hydrogel). In vitro studies demonstrated that the Met/DMA hydrogel enhances fibroblast proliferation and migration, reduces intracellular reactive oxygen species, and accelerates endothelial cell angiogenesis and macrophage polarization to an anti-inflammatory phenotype. Animal experiments further revealed that the hydrogel significantly accelerated wound healing in diabetic rats (41.68.7 % improvement vs. control group) by promoting neovascularization, collagen maturation, and regulation of the inflammatory microenvironment at the wound site. In conclusion, this study successfully developed a Met/DMA hydrogel platform that effectively treats diabetic wounds through synergistic promotion of angiogenesis and modulation of the immune-inflammatory response.}
+}
+
+@article{xi2025injectable,
+  title={Injectable thymosin $\beta$4-Modified hyaluronic acid hydrogel with exosomes for stem cell homing and Neuronic--Angiogenic--Osteogenic coupled cranial repair},
+  author={Xi, Yanhai# and Zhang, Zhen# and Zhao, Zixuan# and Qiu, Ba and Wang, Weiheng and Xu, Guohua and Sun, Zheru and Shi, Feng and Liang, Wenkui and Wu, Jun},
+  journal={ACS nano},
+  volume={19},
+  number={25},
+  pages={22710--22724},
+  year={2025},
+  publisher={ACS Publications},
+  doi = {10.1021/acsnano.4c10386},
+  abstract={Accelerating angiogenesis, neurogenesis, and in situ stem cell recruitment at the site of bone defects is critical for bone regenerative repair. Bone marrow mesenchymal stem cell (BMSC) exosomes are cell-free therapeutic agents with bone-enhancing effects. Thymosin β4 (Tβ4) is a short peptide known for its key role in tissue repair and angiogenesis. In this study, we successfully developed a multifunctional injectable Exo@Tβ4/HAMA hydrogel platform by grafting Tβ4 onto methylmalonic anhydride-modified hyaluronic acid (HAMA) via photo-cross-linking and then encapsulating BMSC-derived exosomes. In vitro results demonstrated that the Exo@Tβ4/HAMA hydrogel exhibited improved mechanical properties, favorable biocompatibility, and the ability to significantly recruit BMSCs. Additionally, it showed superior vasculogenic effects on HUVECs and osteogenic differentiation potentials on BMSCs. In vivo studies revealed that the hydrogel successfully promoted both neurogenesis, angiogenesis, and new bone formation. It also facilitated osteogenesis through the ERK1/2-dependent RUNX2 signaling pathway. Our results suggest that this hydrogel platform exerts a robust multisystemic regulatory effect, fostering rat bone repair through the synergistic promotion of in situ stem cell recruitment, angiogenesis, neurogenesis, and osteogenesis. As a simple-to-prepare and multifunctional integrated bone graft, this hydrogel platform holds a significant promise in establishing a conducive microenvironment for optimal bone healing.},
+  preview={ACS2025.png}
+}
+
+@article{zhao2025xanthium,
+  title={Xanthium strumarium/gelatin methacryloyl based hydrogels with anti-inflammatory and antioxidant properties for diabetic wound healing via akt/mtor pathway},
+  author={Zhao, Zixuan and Han, Shuyan and Feng, Weiliang and Zhang, Zhen and Shen, Shunli and Huang, Hai and Wu, Jun},
+  journal={International Journal of Biological Macromolecules},
+  volume={300},
+  pages={140186},
+  year={2025},
+  publisher={Elsevier},
+  doi = {10.1016/j.ijbiomac.2025.140186},
+  abstract={Chronic wound healing is often hindered by long-term inflammation and redox imbalance. Herbal medicine, with its rich medicinal components such as polysaccharides, flavonoids, phenolic acids, and small-molecule nutrients, has gained attention for its anti-inflammatory and antioxidant properties. Xanthium strumarium (XS) is a potent anti-inflammatory herb that has shown promise in treating conditions like rhinitis and may have specific benefits for chronic skin wounds. However, traditional XS preparations taken orally can have harmful effects on the liver and kidneys, limiting its clinical use. To date, there has been no documented method for the localized and sustained delivery of XS. This study introduces a timely development of a multifunctional hybrid hydrogel, incorporating bioactive XS extract and Gelatin Methacryloyl (GelMA), for the purpose of diabetic wound healing. In vitro experiments showed that XS/GelMA had strong anti-inflammatory and antioxidant effects through the Akt/mTOR pathway. The XS extract itself also significantly enhanced cell migration and angiogenesis. In vivo studies confirmed the superior wound healing properties of XS/GelMA. These findings suggest that XS-derived hydrogels have great potential for skin regeneration and tissue engineering applications.},
+  preview={IJBM2025.png}
+}
+
+@article{zhong2025bioactive,
+  title={Bioactive electrospun polylactic acid/chlorogenic acid-modified chitosan bilayer sponge for acute infection wound healing and rapid coagulation},
+  author={Zhong, Huiling# and Zhang, Zhen# and Wang, Mohong# and Fang, Yifei and Liu, Ke and Yin, Junqiang and Wu, Jun and Du, Jianhang},
+  journal={Biomaterials Science},
+  volume={13},
+  number={3},
+  pages={697--710},
+  year={2025},
+  publisher={The Royal Society of Chemistry},
+  doi = {10.1039/d4bm01388c},
+  abstract={Acute severe trauma is often associated with rapid blood loss and a high risk of infection. Based on these concerns, this study successfully constructed a multifunctional dual-layer bioactive sponge PCCT with rapid hemostatic and infection-preventing ability. Its external surface is an electrospun poly(lactic acid) (PLA) nanofiber thin film layer, which ensures its high air permeability and effectively protects against external bacterial invasion. In vitro results showed that the film is effectively resistant to invasion by typical Gram-negative (E. coli) and Gram-positive (S. aureus) bacteria. The inner sponge layer was formed by chlorogenic acid (CGA) grafted with chitosan (CS) and loaded with tranexamic acid (TA). The abundant cationic groups on the sponge interacted with negatively charged erythrocytes and achieved rapid hemostasis at the wound site under the action of TA. In addition, the high porosity and bioactivity of the CS-CGA sponge scaffold endowed the hydrogel with good water absorption, antibacterial properties and anti-inflammatory activity, which effectively accelerated the healing of acute infected wounds in rats and demonstrated favorable biosafety.}
+}
+
+@article{chen2025selective,
+  title={Selective capture of iodine and toxic anionic dyes of a novel quaternary ammonium salt pillar [5] arene polymer with antibacterial activity},
+  author={Chen, Yan and Yang, Ming-Kun and Zhou, Suo-Luan and Hu, Cheng-Nuo and Yang, Yun-Han* and Zhang, Zhen* and Yang, Li-Juan*},
+  journal={Chemical Engineering Journal},
+  volume={506},
+  pages={159974},
+  year={2025},
+  publisher={Elsevier},
+  preview={2CEJ2025.png},
+  doi = {10.1016/j.cej.2025.159974},
+  abstract={A novel quaternized pillar[5]arene polymer (P5-P5M-Cl) was synthesized by quaternization reaction, and characterized via XPS, FT-IR, NMR, XRD, TGA, BET, and SEM. P5-P5M-Cl can be used for the efficient removal of iodine, toxic anionic dyes, and microbial pollutants. The results demonstrated that the maximum adsorption capacity of P5-P5M-Cl for iodine in the gas phase as well as for iodine, methyl orange, and fluorescein sodium in the aqueous phase were 1.92 g/g, 3.63 g/g, 181.8 mg/g, and 86.7 mg/g, respectively. Recyclability experiments have demonstrated the good reusability of P5-P5M-Cl. Meanwhile, the adsorption mechanism was explained by molecular simulation, and the results showed that electrostatic, host-guest, hydrogen bonding, mesoporous, and π-π interactions play crucial roles in the adsorption process. In addition, the presence of abundant quaternary ammonium cationic groups enables effective removing Staphylococcus aureus and Escherichia coli, achieving removal rates of 99.5 % and 80.0 %, respectively. These results demonstrate that P5-P5M-Cl is a multifunctional adsorbent capable of effectively removing radioactive iodine, organic dyes, and microbial pollutants.}
+}
+
+@article{xie2025multifunctional,
+  title={Multifunctional GelMA hydrogel doped with spermidine-ferrocene polymeric nanoparticles for accelerative diabetic wound healing},
+  author={Xie, Lina and Zhang, Xiaohe and Wang, Xiaobo and Zhang, Zhen and Nie, Tianqi and Wu, Jun and Xu, Xiaojun},
+  journal={Chinese Chemical Letters},
+  pages={110848},
+  year={2025},
+  publisher={Elsevier},
+  doi = {10.1016/j.cclet.2025.110848},
+  abstract={Diabetic wounds are among the most challenging chronic wounds to heal, due to the presence of multiple factors, including continuous oxidative stress, impaired vascular integrity, and biofilm formation. The development of innovative treatment strategies is of paramount importance for the management of diabetic wounds. Stemmed from the pleiotropic physicochemical properties of ferrocene and spermidine, this essay reported the ferrocene-spermidine co-polymer (FcS) for the first time through facile amidation reaction. Molecular dynamics simulation revealed its self-assembly through hydrogen bonds, van der Waals forces instead of traditional nanoprecipitation. The self-assembled nanoparticles were demonstrated to exhibit great antioxidant property on cells to facilitate their migration and angiogenesis. Moreover, the integration with photocuring hydrogel, gelatin methacrylate (GelMA), to construct FcS nanoparticles loaded wound dressing (GelMA@FcS) further confirmed the potential on promoting diabetic wound enclosure through enhancement of re-epithelization and collagen deposition. Together with its great biocompatibility and biosafety, GelMA@FcS is expected to be developed into a wound dressing for clinical diabetic wounds management.}
+}
+
+@article{huang2024cost,
+  title={Cost-effective and natural-inspired lotus root/GelMA scaffolds enhanced wound healing via ROS scavenging, angiogenesis and reepithelialization},
+  author={Huang, Chunlin# and Zhang, Zhen# and Fang, Yifei and Huang, Keqing and Zhao, Yi and Huang, Hai and Wu, Jun},
+  journal={International Journal of Biological Macromolecules},
+  volume={278},
+  pages={134496},
+  year={2024},
+  publisher={Elsevier},
+  doi = {10.1016/j.ijbiomac.2024.134496},
+  abstract={Skin wounds, prevalent and fraught with complications, significantly impact individuals and society. Wound healing encounters numerous obstacles, such as excessive reactive oxygen species (ROS) production and impaired angiogenesis, thus promoting the development of chronic wound. Traditional clinical interventions like hemostasis, debridement, and surgery face considerable challenges, including the risk of secondary infections. While therapies designed to scavenge excess ROS and enhance proangiogenic properties have shown effectiveness in wound healing, their clinical adoption is hindered by high costs, complex manufacturing processes, and the potential for allergic reactions. Lotus root, distinguished by its natural micro and macro porous architecture, exhibits significant promise as a tissue engineering scaffold. This study introduced a novel scaffold based on hybridization of lotus root-inspired and Gelatin Methacryloyl (GelMA), verified with satisfactory physicochemical properties, biocompatibility, antioxidative capabilities and proangiogenic abilities. In vivo tests employing a full-thickness wound model revealed that these scaffolds notably enhanced micro vessel formation and collagen remodeling within the wound bed, thus accelerating the healing process. Given the straightforward accessibility of lotus roots and the cost-effective production of the scaffolds, the novel scaffolds with ROS scavenging, pro-angiogenesis and re-epithelialization abilities are anticipated to have clinical applicability for various chronic wounds.}
+}
+
+@article{zhang2024hybrid,
+  title={Hybrid gelatin-ascorbyl phosphate scaffolds accelerate diabetic wound healing via ROS scavenging, angiogenesis and collagen remodeling},
+  author={Zhang, Zhen and Huang, Chunlin and Guan, Shiyao and Wang, Liying and Yin, Hanxiao and Yin, Junqiang and Liu, Jie and Wu, Jun},
+  journal={Biomaterials Advances},
+  volume={158},
+  pages={213779},
+  year={2024},
+  publisher={Elsevier},
+  preview={BA2024.png},
+  doi = {10.1016/j.bioadv.2024.213779},
+  abstract={Skin wound healing, particularly diabetic wound healing, is challenging in clinical management. Impaired wound healing is associated with persistent oxidative stress, altered inflammatory responses, unsatisfactory angiogenesis and epithelialization. Magnesium ascorbyl phosphate (MAP), which is an ascorbic acid derivative and active ingredient in cosmetics, has been reported to scavenge reactive oxygen species (ROS), and is considered a potential therapeutic agent for diabetic wounds. Herein, we report a hybrid gelatin-MAP scaffolds that can reduces oxidative stress damage, enhances angiogenesis and collagen remodeling to accelerate diabetic wound repair. Preliminary insights based on network pharmacology indicate that MAP may accelerate wound repair through multiple biological pathways, including extracellular matrix remodeling and anti-apoptosis. In vitro studies showed that the hybrid hydrogel scaffold had suitable mechanical properties, excellent biocompatibility and bioactivity. Further animal experiments demonstrated that the hydrogel accelerated full-thickness wound repair in diabetic mice (repair rate MAP vs Control 91.7913.306 % vs 62.9626.758 %) through antioxidant, neuroangiogenesis, collagen remodeling, and up-regulated the expression of the related factors COL-1, CD31, VEGF, and CGRP. Overall, we developed a bioactive hybrid hydrogel encapsulating MAP that synergistically promotes diabetic wound repair through multiple biological effects. This potentially integrated therapeutic scaffold may enrich future surgical approaches for treating diabetic wounds.}
+}
+
+@article{yang2024designing,
+  title={Designing and preparing supramolecular encapsulation systems based on fraxetin and cyclodextrins for highly selective detection of nicotine},
+  author={Yang, Yun-Han# and Zhang, Zhen# and Bao, Qiu-Lian and Zhao, Fang and Yang, Ming-Kun and Tao, Xin and Chen, Yan and Zhang, Jun-Tong and Yang, Li-Juan},
+  journal={Carbohydrate Polymers},
+  volume={327},
+  pages={121624},
+  year={2024},
+  publisher={Elsevier},
+  doi = {10.1016/j.carbpol.2023.121624},
+  abstract={Herein, a series of water-soluble supramolecular inclusion complexes (ICs) probes were prepared using cyclodextrins (CDs) and fraxetin (FRA) to detect nicotine (NT) with high selectivity in vitro and in vivo. The FRA/CD ICs prepared through the saturated solution method exhibited excellent water solubility, stability, and biocompatibility. A clear host-guest inclusion model was provided by the theoretical calculations. The investigation revealed that NT was able to enter into the cavities of FRA/β-CD IC and FRA/γ-CD IC, and further formed charge transfer complexes with FRA in the CD cavities, resulting in a rapid and highly selective fluorescence-enhanced response with the lowest detection limits of 1.9 × 10−6 M and 9.7 × 10−7 M, and the linear response ranged from 0.02 to 0.3 mM and 0.01–0.05 mM, respectively. The IC probes showed good anti-interference performance to common interferents or different pH environments, with satisfactory reproducibility and repeatability of response to NT. Furthermore, the potentiality of the probes was confirmed through fluorescence imaging experiments using human lung cancer cells and the lung tissue of mice. This study offers a fresh perspective for detecting NT in environmental and biomedical analysis.}
+}
+
+@article{zhang2023triple,
+  title={Triple functional magnesium ascorbyl phosphate encapsulated hydrogel: A cosmetic ingredient promotes bone repair via anti-oxidation, calcium uptake and blood vessel remodeling},
+  author={Zhang, Zhen and Hao, Zhichao and Xian, Caihong and Zhang, Jiayuan and Wu, Jun},
+  journal={Chemical Engineering Journal},
+  volume={472},
+  pages={145061},
+  year={2023},
+  publisher={Elsevier},
+  preview={CEJ2023.png},
+  doi = {10.1016/j.cej.2023.145061},
+  abstract={Bone defect repair involves a synergistic repair process involving the reconstruction of the skeletal system and remodeling of the neurological and vascular systems. However, current strategy/systems are mainly single function/purpose for bone repair. In this study, we propose a strategy that utilizes a simple but multifunctional cosmetic ingredient magnesium ascorbyl phosphate (MAP), for effective in situ cranial defect repair. MAP is loaded into a gelatin methacrylate hydrogel to achieve sustained release and the scaffold supply only phosphorus-containing compounds to promote bone repair without an exogenous supply of Ca2+. Results show that MAP can reduce oxidative stress damage in bone marrow-derived mesenchymal stem cells (BMSCs) by scavenging reactive oxygen species and promoting Ca2+ uptake to accelerate the mineralization of BMSCs in vitro. In addition, the pro-angiogenic and ERK/AKT signaling pathway activation abilities of MAP accelerate the biological process of bone defect repair. Micro-CT result reveal a greater repair rate in the 8-week MAP group (32.74 ± 0.62%) than in the control group (7.08 ± 0.29%). This study suggests that inorganic-phosphorus-based small-molecule delivery and calcium-free strategies have considerable potential in bone defect repair.}
+}
+
+@article{hu2023therapeutic,
+  title={Therapeutic poly (amino acid) s as drug carriers for cancer therapy},
+  author={Hu, Huihui# and Zhang, Zhen# and Fang, Yifen and Chen, Lei and Wu, Jun},
+  journal={Chinese Chemical Letters},
+  volume={34},
+  number={6},
+  pages={107953},
+  year={2023},
+  publisher={Elsevier},
+  doi = {10.1016/j.cclet.2022.107953},
+  abstract={As one of the top global health problems, the effective treatment of cancer is one of the most urgent clinical challenges. Currently, the main treatments for cancer include surgery, chemotherapy, radiotherapy, and gene therapy etc. Chemotherapy is one of the most commonly used treatments, however it has limitations such as highly toxic side effects and low drug utilization rate that limit its application. Gene therapy, as an emerging cancer treatment, has limitations such as drug instability, off-target effects and low internalization efficiency. Poly(amino acid)s carriers with good biocompatibility, degradability and multifunctionality as drug carriers have received much attention, as they can reduce the toxic side effects of chemotherapy, improve drug utilization, and enhance the internalization efficiency and utilization of gene drugs. However, little attention has been paid to the nature of the carriers themselves. This paper reviews the immunomodulatory, anti-inflammatory, antioxidant, internalization-promoting and apoptosis-promoting functions of poly(amino acid)s drug carriers in tumor therapy to provide a theoretical basis for different carrier-drug-adapted synergistic therapies.}
+}
+
+@article{guo2023injectable,
+  title={Injectable TG-linked recombinant human collagen hydrogel loaded with bFGF for rat cranial defect repair},
+  author={Guo, Yayuan and Hu, Zeyu and Chen, Jilong and Zhang, Zhen and Liu, Qian and Li, Juan and Yang, Jiaojiao and Ma, Zihan and Zhao, Jing and Hu, Jingyan and others},
+  journal={International Journal of Biological Macromolecules},
+  volume={236},
+  pages={123864},
+  year={2023},
+  publisher={Elsevier},
+  doi = {10.1016/j.ijbiomac.2023.123864},
+  abstract={The basic fibroblast growth factor (bFGF) plays a significant role in promoting the process of bone repair, but bFGF cannot keep its biological activity stable under normal physiological conditions. Therefore, the development of better biomaterials to carry bFGF remains a challenge for bone repair and regeneration. Here we designed a novel recombinant human collagen (rhCol), which could be cross-linked by transglutaminase (TG) and loaded bFGF to prepare rhCol/bFGF hydrogels. The rhCol hydrogel possessed a porous structure and good mechanical properties. The assays, including cell proliferation, migration, and adhesion assay, were performed to evaluate the biocompatibility of rhCol/bFGF and the results demonstrated that the rhCol/bFGF promoted cell proliferation, migration and adhesion. The rhCol/bFGF hydrogel degraded and released bFGF controllably, enhancing utilization rate of bFGF and allowing osteoinductive activity. The results of RT-qPCR and immunofluorescence staining also proved that rhCol/bFGF promoted expression of bone-related proteins. The rhCol/bFGF hydrogels were applied in the cranial defect in rats and the results confirmed that it accelerates bone defect repair. In conclusion, rhCol/bFGF hydrogel has excellent biomechanical properties and can continuously release bFGF to promote bone regeneration, suggesting that rhCol/bFGF hydrogel is a potential scaffold in clinic application.}
+}
+
+@article{hao2023multifunctional,
+  selected = {true},
+  title={A multifunctional neuromodulation platform utilizing Schwann cell-derived exosomes orchestrates bone microenvironment via immunomodulation, angiogenesis and osteogenesis},
+  author={Hao, Zhichao# and Ren, Lin# and Zhang, Zhen# and Yang, Zaiwu and Wu, Shujie and Liu, Gen and Cheng, Bin and Wu, Jun and Xia, Juan},
+  journal={Bioactive materials},
+  volume={23},
+  pages={206--222},
+  year={2023},
+  publisher={Elsevier},
+  doi = {10.1016/j.bioactmat.2022.10.018},
+  abstract={We establish the existence and uniqueness of strong solutions for a class of non-linear Stochastic Partial Differential Equations (SPDEs) driven by multiplicative Lévy noise. The equations under consideration model turbulent fluid flow and heat transport in random media. By employing a Galerkin approximation scheme combined with a compact embedding theorem, we prove the convergence of the approximate solutions in appropriate Hilbert spaces. Furthermore, we derive a priori estimates that ensure the global regularity of the solution almost surely. A key contribution of this work is the treatment of non-Lipschitz coefficients using a stochastic Gronwall inequality, extending the applicability of the theory to more singular physical models. We also discuss the ergodic properties of the invariant measures associated with the SPDEs.},
+  preview={bam.png},
+  description={The SC exosomes platform regulates bone healing process temporally via immunomodulation, angiogenesis and osteogenesis.},
+  keywords={Bone microenvironment, Bone regeneration, Schwann cells, Exosomes, Neurotization in bone tissue engineering}
+}
+
+@article{zhang2022neuro,
+  title={Neuro-bone tissue engineering: multiple potential translational strategies between nerve and bone},
+  author={Zhang, Zhen# and Hao, Zhichao# and Xian, Caihong and Fang, Yifen and Cheng, Bin and Wu, Jun and Xia, Juan},
+  journal={Acta biomaterialia},
+  volume={153},
+  pages={1--12},
+  year={2022},
+  publisher={Elsevier},
+  preview={ActaBio.png},
+  doi = {10.1016/j.actbio.2022.09.023},
+  abstract={Numerous tissue regeneration paradigms show evident neurological dependence, including mammalian fingertip, skin, and bone regeneration. The mature skeleton is innervated by an abundant nervous system that infiltrates the developing axial and appendicular bones and maintains the stability of the systemic skeletal system by controlling blood flow, regulating bone metabolism, secreting neurotransmitters, and regulating stem cell behavior. In recent years, neurotization in tissue-engineered bone has been considered as a promising strategy to effectively overcome the challenge of vascularization and innervation regeneration in the central zone of “critical-sized bone defects” that conventional tissue-engineered scaffolds are unable to handle, however, further validation is needed in relevant clinical applications. Therefore, this study reviews the mechanisms by which the nervous system regulates bone metabolism and regeneration through a variety of neurogenic or non-neurogenic factors, as well as the recent progress and design strategies of neuralized tissue-engineered bone, to provide new ideas for further studies on subsequent neural bone tissue engineering.}
+}
+
+@article{guan2022non,
+  title={Non-coding RNA delivery for bone tissue engineering: Progress, challenges, and potential solutions},
+  author={Guan, Shiyao# and Zhang, Zhen# and Wu, Jun*},
+  journal={Iscience},
+  volume={25},
+  number={8},
+  year={2022},
+  publisher={Elsevier},
+  doi = {10.1016/j.isci.2022.104807 },
+  abstract={More than 20 million individuals worldwide suffer from congenital or acquired bone defects annually. The development of bone scaffold materials that simulate natural bone for bone defect repair remains challenging. Recently, ncRNA-based therapies for bone defects have attracted increasing interest because of the great potential of ncRNAs in disease treatment. Various types of ncRNAs regulate gene expression in osteogenesis-related cells via multiple mechanisms. The delivery of ncRNAs to the site of bone loss through gene vectors or scaffolds is a potential therapeutic option for bone defect repair. Therefore, this study discusses and summarizes the regulatory mechanisms of miRNAs, siRNAs, and piRNAs in osteogenic signaling and reviews the widely used current RNA delivery vectors and scaffolds for bone defect repair. Additionally, current challenges and potential solutions of delivery scaffolds for bone defect repair are proposed, with the aim of providing a theoretical basis for their future clinical applications.}
+}
+
+@article{xian2022nanosized,
+  title={Nanosized fat emulsion injection modulating local microenvironment promotes angiogenesis in chronic wound healing},
+  author={Xian, Caihong and Zhang, Zhen and You, Xinru and Fang, Yifen and Wu, Jun},
+  journal={Advanced Functional Materials},
+  volume={32},
+  number={32},
+  pages={2202410},
+  year={2022},
+  publisher={Wiley Online Library},
+  preview={AFM2022.png},
+  doi = {10.1002/adfm.202202410},
+  abstract={The current treatment for chronic diabetic wounds is costly for patients and society. The proinflammatory state and impaired vascular condition are the main factors that hamper diabetic wound healing. In this study, fat emulsion (FE), a nanosized product clinically used to provide nutrition and energy to patients through vein injection, is evaluated for its diabetic wound healing capability for the first time. The nanosized FE is mixed with methacrylated hyaluronic acid (HA–MA) hydrogel to form an anti-inflammatory and angiogenic FE/HA–MA hybrid hydrogel dressing to accelerate the diabetic wound closure. Results of RT-qPCR analysis and ELISA demonstrate that the FE exerts excellent anti-inflammatory effects by significantly downregulating the expression of proinflammatory cytokines tumor necrosis factor-α (TNF-α) and interleukin-1β (IL-1β), both in vitro and in vivo. The endothelial tube formation and scratch assays reveal that the FE promotes angiogenesis and cell migration, respectively, by releasing vascular endothelial growth factor A. The in vivo diabetic wound mouse model confirms an increased blood vessel density, healing rate, tissue epithelialization, and collagen deposition in the FE/HA–MA hybrid hydrogel dressing group compared to the control group. These findings may provide a promising and economic product and strategy for diabetic wound treatment in the clinic.}
+}
+
+@article{guo2021novel,
+  title={Novel tissue-engineered skin equivalent from recombinant human collagen hydrogel and fibroblasts facilitated full-thickness skin defect repair in a mouse model},
+  author={Guo, Yayuan and Bian, Zhengyue and Xu, Qian and Wen, Xiaomin and Kang, Juan and Lin, Shuai and Wang, Xue and Mi, Zhaoxiang and Cui, Jihong and Zhang, Zhen and others},
+  journal={Materials Science and Engineering: C},
+  volume={130},
+  pages={112469},
+  year={2021},
+  publisher={Elsevier},
+  doi = {10.1016/j.msec.2021.112469},
+  abstract={Tissue-engineered skin equivalent (TESE) is an optimized alternative for the treatment of skin defects. Designing and fabricating biomaterials with desired properties to load cells is critical for the approach. In this study, we aim to develop a novel TESE with recombinant human collagen (rHC) hydrogel and fibroblasts to improve full-thickness skin defect repair. First, the bioactive effect of rHC on fibroblast proliferation, migration and phenotype was assayed. The results showed that rHC had good biocompatibility and could stimulate fibroblasts migration and secrete various growth factors. Then, rHC was cross-linked with transglutaminase (TG) to prepare rHC hydrogel. Rheometer tests indicated that 10% rHC/TG hydrogel could reach a oscillate stress of 251 Pa and remained stable. Fibroblasts were seeded into rHC/TG hydrogel to prepare TESE. Confocal microscope and scanning electronic microscope observation showed that seeded fibroblasts survived well in the hydrogel. Finally, the therapeutic effect of the newly prepared TESE was tested in a mouse full-thickness skin defect model. The results demonstrated that TESE could significantly improve skin defect repair in vivo. Conclusively, TESE prepared from rHC and fibroblasts in this study exhibits great potential for clinical application in the future.}
+}
+
+@article{chen2021fabricating,
+  title={Fabricating a novel HLC-hBMP2 fusion protein for the treatment of bone defects},
+  author={Chen, Zhuoyue and Zhang, Zhen and Wang, Zhaoyue and Wu, Jiawei and Wang, Yihang and Si, He and Xie, Xin and Shang, Lijun and Fan, Daidi and Chen, Fulin},
+  journal={Journal of Controlled Release},
+  volume={329},
+  pages={270--285},
+  year={2021},
+  publisher={Elsevier},
+  preview={JCR2021.png},
+  doi = {10.1016/j.jconrel.2020.11.058},
+  abstract={Treating serious bone trauma with an osteo-inductive agent such as bone morphogenetic proteins (BMPs) has been considered as an optimized option when delivered via a collagen sponge (CS). Previous works have shown that the BMP concentration and release rate from approved CS carriers is difficult to control with precision. Here we presented the fabrication of a recombinant fusion protein from recombinant human-like collagen (HLC) and human BMP-2 (hBMP2). The fusion protein preserved the characteristic of HLC allowing the recombinant protein to be expressed in Yeast (such as Pichia pastoris GS115) and purified rapidly and easily with mass production after methanol induction. It also kept the stable properties of HLC and hBMP2 in the body fluid environment with good biocompatibility and no cytotoxicity. Moreover, the recombinant fusion protein fabricated a vertical through-hole structure with improved mechanical properties, and thus facilitated migration of bone marrow mesenchymal stem cells (MSCs) into the fusion materials. Furthermore, the fusion protein degraded and released hBMP-2 in vivo allowing osteoinductive activity and the enhancement of utilization rate and the precise control of the hBMP2 release. This fusion protein when applied to cranial defects in rats was osteoinductively active and improved bone repairing enhancing the repairing rate 3.5- fold and 4.2- fold when compared to the HLC alone and the control, respectively. There were no visible inflammatory reactions, infections or extrusions around the implantation sites observed. Our data strongly suggests that this novel recombinant fusion protein could be more beneficial in the treatment of bone defects than the simple superposition of the hBMP2/collagen sponge.}
+}
+
+@article{chen2019newly,
+  title={Newly designed human-like collagen to maximize sensitive release of BMP-2 for remarkable repairing of bone defects},
+  author={Chen, Zhuoyue and Zhang, Zhen and Ma, Xiaoxuan and Duan, Zhiguang and Hui, Junfeng and Zhu, Chenhui and Zhang, Donggang and Fan, Daidi and Shang, Lijun and Chen, Fulin},
+  journal={Biomolecules},
+  volume={9},
+  number={9},
+  pages={450},
+  year={2019},
+  publisher={MDPI},
+  doi = {10.3390/biom9090450},
+  abstract={Designing the “ideal” hydrogel/matrix which can load bone morphogenetic protein-2 (BMP-2) in a low dose and with a sustained release is the key for its successful therapeutic application to enhance osteogenesis. The current use of natural collagen sponges as hydrogel/matrix is limited due to the collagen matrix showing weak mechanical strength and unmanageable biodegradability. Furthermore, the efficiency and safe dose usage of the BMP-2 has never been seriously considered other than purely chasing the lowest dose usage and extended-release time. In this paper, we customized a novel enzymatically cross-linked recombinant human-like collagen (HLC) sponge with low immunogenicity, little risk from hidden viruses, and easy production. We obtained a unique vertical pore structure and the porosity of the HLC, which are beneficial for Mesenchymal stem cells (MSCs) migration into the HLC sponge and angiopoiesis. This HLC sponge loading with low dose BMP-2 (1 µg) possessed high mechanical strength along with a burst and a sustained release profile. These merits overcome previous limitations of HLC in bone repair and are safer and more sensitive than commercial collagens. For the first time, we identified that a 5 µg dose of BMP-2 can bring about the side effect of bone overgrowth through this sensitive delivery system. Osteoinduction of the HLC-BMP sponges was proved by an in vivo mouse ectopic bone model and a rat cranial defect repair model. The method and the HLC-BMP sponge have the potential to release other growth factors and aid other tissue regeneration. Additionally, the ability to mass-produce HLC in our study overcomes the current supply shortage, which limits bone repair in the clinic.}
+}
+
+
+@article{zhang2018advances,
+  title={Advances in antitumor effects of NSAIDs},
+  author={Zhang, Zhen and Chen, Fulin* and Shang, Lijun*},
+  journal={Cancer management and research},
+  pages={4631--4640},
+  year={2018},
+  publisher={Taylor \& Francis},
+  doi = {10.2147/CMAR.S175212},
+  abstract={In recent years, the reports on using nonsteroidal anti-inflammatory drugs (NSAIDs) for cancer prevention and treatment have been on the rise. In 2017, the US Preventive Services Working Group issued primary prevention guidelines on the use of NSAIDs, especially aspirin, for cardiovascular disease and colorectal cancer, and formally established the role and status of aspirin in cancer prevention. However, the mechanism of NSAIDs on preventing cancer is still not clear. In this paper, the progress of the application of NSAIDs, especially aspirin, in the prevention and treatment of tumors in recent years is summarized, and new ideas and directions for the follow-up study are also discussed.}
+}
+
+@article{chen2018influence,
+  title={Influence of mussel-derived bioactive BMP-2-decorated PLA on MSC behavior in vitro and verification with osteogenicity at ectopic sites in vivo},
+  author={Chen, Zhuoyue and Zhang, Zhen and Feng, Juantao and Guo, Yayuan and Yu, Yuan and Cui, Jihong and Li, Hongmin and Shang, Lijun},
+  journal={ACS applied materials \& interfaces},
+  volume={10},
+  number={14},
+  pages={11961--11971},
+  year={2018},
+  preview={AMI2018.png},
+  publisher={ACS Publications},
+  doi = {10.1021/acsami.8b01547},
+  abstract={Osteoinductive activity of the implant in bone healing and regeneration is still a challenging research topic. Therapeutic application of recombinant human bone morphogenetic protein-2 (BMP-2) is a promising approach to enhance osteogenesis. However, high dose and uncontrolled burst release of BMP-2 may introduce edema, bone overgrowth, cystlike bone formation, and inflammation. In this study, low-dose BMP-2 of 1 μg was used to design PLA-PD-BMP for functionalization of polylactic acid (PLA) implants via mussel-inspired polydopamine (PD) assist. For the first time, the binding property and efficiency of the PD coating with BMP-2 were directly demonstrated and analyzed using an antigen–antibody reaction. The obtained PLA-PD-BMP surface immobilized with this low BMP-2 dose can endow the implants with abilities of introducing strong stem cell adhesion and enhanced osteogenicity. Furthermore, in vivo osteoinduction of the PLA-PD-BMP-2 scaffolds was confirmed by a rat ectopic bone model, which is marked as the “gold standard” for the evidence of osteoinductive activity. The microcomputed tomography, Young’s modulus, and histology analyses were also employed to demonstrate that PLA-PD-BMP grafted with 1 μg of BMP-2 can induce bone formation. Therefore, the method in this study can be used as a model system to immobilize other growth factors onto various different types of polymer substrates. The highly biomimetic mussel-derived strategy can therefore improve the clinical outcome of polymer-based medical implants in a facile, safe, and effective way.}
+}

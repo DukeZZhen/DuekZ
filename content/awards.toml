@@ -1,27 +1,15 @@
 type = "card"
-title = "Awards"
-description = "Honors and awards I have received."
+title = "Research Funding"
+description = "Grants and contracts I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
+title = "National Natural Science Foundation of China (NSFC) General Program"
+subtitle = "Participants, 52173150"
+date = "2022-2025"
+content = "Bone Marrow-Targeted Phenylalanine-Based Polymer Drug Delivery System for Modulating the Tumor Microenvironment in Leukemia Treatment."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "Shenzhen Foundation Research General Projects"
+subtitle = "Participants, 201908133000475"
+date = "2019-2022"
+content = "Development of a Novel Hydrogel Dressing and Its Application in Diabetic Ulcers."

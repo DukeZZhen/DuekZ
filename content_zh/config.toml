@@ -28,13 +28,7 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "奖项"
+title = "经费"
 type = "page"
 target = "awards"
 href = "/awards"
@@ -44,6 +38,12 @@ title = "服务"
 type = "page"
 target = "services"
 href = "/services"
+
+[[navigation]]
+title = "新闻"
+type = "page"
+target = "teaching"
+href = "/teaching"
 
 [[navigation]]
 title = "简历"

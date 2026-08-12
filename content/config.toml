@@ -13,15 +13,15 @@ avatar = "/bio.jpg"
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
+email = "zhangzh327@mail3.sysu.edu.cn"
+location = "Guangdong, China"
 location_url = "https://maps.google.com"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "Room 601, E3,",
+  "HKUST(GZ), Guangzhou, China"
 ]
 google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
+orcid = "https://orcid.org/my-orcid?orcid=0000-0003-3885-2463"
 github = "https://github.com"
 linkedin = "https://linkedin.com"
 
@@ -61,13 +61,7 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "Awards"
+title = "Research Funding"
 type = "page"
 target = "awards"
 href = "/awards"
@@ -77,6 +71,12 @@ title = "Services"
 type = "page"
 target = "services"
 href = "/services"
+
+[[navigation]]
+title = "Events"
+type = "page"
+target = "teaching"
+href = "/teaching"
 
 [[navigation]]
 title = "CV"

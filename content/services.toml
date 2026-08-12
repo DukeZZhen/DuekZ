@@ -3,7 +3,61 @@ title = "Services"
 description = "Professional services and community involvement."
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Youth Editorial Board Members"
+subtitle = "Progress in Natural Science: Materials International"
+date = "2026-Present"
+content = "Reviewing papers and supporting academic society activities."
+
+[[items]]
+title = "Youth Editorial Board Members"
+subtitle = "Chinese Chemical Letters"
+date = "2024-2026"
+content = "Reviewing papers and supporting academic society activities."
+
+[[items]]
+title = "Committee Member"
+subtitle = "Nanobiotechnology Branch of the China Association of Pharmaceutical Biotechnology (National Level)"
+date = "2024-Present"
+content = "Participate in the association's activities and contribute to its development."
+
+[[items]]
+title = "Youth Standing Committee Member"
+subtitle = "Guangdong Provincial Association of Natural Medicine, Specialized Committee on Stem Cells and Traditional Chinese Medicine Regenerative Medicine (Provincial Level)"
+date = "2024-Present"
+content = "Participate in the association's activities and contribute to its development."
+
+[[items]]
+title = "Committee Member"
+subtitle = "Guangdong Province Association of Biomedical Engineering—Association for Biomedical Materials and Clinical Applications"
+date = "2022-2026"
+content = "Participate in the association's activities and contribute to its development."
+
+[[items]]
+title = "Committee Member"
+subtitle = "Hematology Branch of the Shenzhen Medical Association"
+date = "2022-2025"
+content = "Participate in the association's activities and contribute to its development."
+
+[[items]]
+title = "Chief Scientist"
+subtitle = "Zhuhai Fengyue Information Technology Co., Ltd."
+date = "2025-Present"
+content = "Develop an AI-driven platform for the discovery of smart biomaterials."
+
+[[items]]
+title = "Serve as Special Reviewers"
+subtitle = "Chemical Engineering Journal"
+date = "2024-Present"
+content = "Review papers."
+
+[[items]]
+title = "Serve as Special Reviewers"
+subtitle = "International Journal of Biological Macromolecules"
+date = "2025-Present"
+content = "Review papers."
+
+[[items]]
+title = "Serve as Special Reviewers"
+subtitle = "Journal of Materials Chemistry B"
+date = "2025-Present"
+content = "Review papers."

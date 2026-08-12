@@ -3,10 +3,10 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Drug Delivery",
   "Regenerative Medicine",
-  "AI4S Biomaterials",
-  "Natural Herbs"
+  "Drug Delivery",
+  "Natural Herbs",
+  "AI4S-Biomaterials"
 ]
 
 [[sections]]
